@@ -8,6 +8,12 @@ Heroku cannot figure out the buildpack on its own. Set it:
 
 `heroku buildpacks:add https://github.com/heroku/heroku-buildpack-nginx`
 
+# Different branch
+
+To track changes in the upstream buildpack, this repo uses a unique branch name. Use that branch to send to heroku:
+
+`git push heroku beingout:master`
+
 ## Environment variables
 
 Uses environment variables to map paths to servers

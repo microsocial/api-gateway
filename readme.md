@@ -1,5 +1,7 @@
 # API Gateway
 
+Forked from: https://github.com/heroku/heroku-buildpack-nginx
+
 ## Setting the buildpack
 
 Heroku cannot figure out the buildpack on its own. Set it:
